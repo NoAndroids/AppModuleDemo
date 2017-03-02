@@ -1,1 +1,1 @@
-include ':app', ':baseutillib', ':one', ':two', ':constraintlayoutdemo', ':myandroidlibs'
+include ':app', ':baseutillib', ':one', ':two', ':constraintlayoutdemo', ':myandroidlibs', ':observerpattern', ':dagger2demo', ':mvpdagger2rxjavaretrofitbutterknifedemo'
