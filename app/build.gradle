@@ -10,6 +10,11 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
     }
     buildTypes {
         release {
@@ -24,6 +29,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile project(':baseutillib')
+    compile rootProject.ext.dependencies["arouterapi"]
+    annotationProcessor 'com.alibaba:arouter-compiler:1.0.3'
     compile project(':one')
     compile project(':two')
 }

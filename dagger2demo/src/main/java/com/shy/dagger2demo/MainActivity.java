@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btn = (Button) findViewById(R.id.btn);
         // 构造桥梁对象
-        MainComponent mainComponent = DaggerMainComponent.builder().mainModule(new MainModule()).build();
+//        MainComponent mainComponent = DaggerMainComponent.builder().mainModule(new MainModule()).build();
 
         //注入
-        mainComponent.inject(this);
+//        mainComponent.inject(this);
         /**
          * 过程 1.创建 component 并注入方法
          *      2.查找当前类中的带有@inject的成员变量

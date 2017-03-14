@@ -1,0 +1,29 @@
+ext {
+    dependencies = [
+            arouterapi         : 'com.alibaba:arouter-api:1.0.7',
+            annotationProcessor: 'com.alibaba:arouter-compiler:1.0.3'    // 替换成最新版本
+////            "multidex"           : "com.android.support:multidex:1.+",
+////            "appcompat-v7"       : "com.android.support:appcompat-v7:${supportLibVersion}",
+////            "support-v4"   : "com.android.support:support-v4:${supportLibVersion}",
+////            "design"      : "com.android.support:design:${supportLibVersion}",
+////            "cardview-v7"      : "com.android.support:cardview-v7:${supportLibVersion}",
+////            "recyclerview-v7"      : "com.android.support:recyclerview-v7:${supportLibVersion}",
+////            "rxjava"             : "io.reactivex:rxjava:1.2.1",
+////            "rxandroid"          : "io.reactivex:rxandroid:1.2.1",
+////            "gson"               : "com.google.code.gson:gson:2.7",
+////            "retrofit"           : "com.squareup.retrofit2:retrofit:2.1.0",
+////            "converter-gson"     : "com.squareup.retrofit2:converter-gson:2.1.0",
+////            "adapter-rxjava"     : "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+////            "dagger"             :  "com.google.dagger:dagger:2.0",
+////            "dagger-compiler"    :  "com.google.dagger:dagger-compiler:2.0",
+////            "butterknife"        : "com.jakewharton:butterknife:8.4.0",
+////            "butterknife-compiler"        : "com.jakewharton:butterknife-compiler:8.4.0",
+////            "logging-interceptor": "com.squareup.okhttp3:logging-interceptor:3.3.1",
+////            "leakcanary-android": "com.squareup.leakcanary:leakcanary-android:1.5",
+////            "leakcanary-android-no-op": "com.squareup.leakcanary:leakcanary-android-no-op:1.5",
+//
+//            // ------------- Test dependencies -------------
+////            "junit:junit": "junit:junit:4.12"
+
+    ]
+}

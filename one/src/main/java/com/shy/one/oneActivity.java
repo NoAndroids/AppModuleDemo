@@ -3,6 +3,9 @@ package com.shy.one;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
+
+@Route(path = "/one/oneActivity")
 public class oneActivity extends AppCompatActivity {
 
     @Override
