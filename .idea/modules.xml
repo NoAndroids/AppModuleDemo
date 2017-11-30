@@ -7,11 +7,15 @@
       <module fileurl="file://$PROJECT_DIR$/baseutillib/baseutillib.iml" filepath="$PROJECT_DIR$/baseutillib/baseutillib.iml" />
       <module fileurl="file://$PROJECT_DIR$/constraintlayoutdemo/constraintlayoutdemo.iml" filepath="$PROJECT_DIR$/constraintlayoutdemo/constraintlayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dagger2demo/dagger2demo.iml" filepath="$PROJECT_DIR$/dagger2demo/dagger2demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/design.iml" filepath="$PROJECT_DIR$/design/design.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpdagger2rxjavaretrofitbutterknifedemo/mvpdagger2rxjavaretrofitbutterknifedemo.iml" filepath="$PROJECT_DIR$/mvpdagger2rxjavaretrofitbutterknifedemo/mvpdagger2rxjavaretrofitbutterknifedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myandroidlibs/myandroidlibs.iml" filepath="$PROJECT_DIR$/myandroidlibs/myandroidlibs.iml" />
       <module fileurl="file://$PROJECT_DIR$/observerpattern/observerpattern.iml" filepath="$PROJECT_DIR$/observerpattern/observerpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/one/one.iml" filepath="$PROJECT_DIR$/one/one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunyingzhuan/qunyingzhuan.iml" filepath="$PROJECT_DIR$/qunyingzhuan/qunyingzhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servertest/servertest.iml" filepath="$PROJECT_DIR$/servertest/servertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/two/two.iml" filepath="$PROJECT_DIR$/two/two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yishutansuo/yishutansuo.iml" filepath="$PROJECT_DIR$/yishutansuo/yishutansuo.iml" />
     </modules>
   </component>
 </project>

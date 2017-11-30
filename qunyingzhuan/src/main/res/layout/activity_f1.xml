@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.shy.qunyingzhuan.F1">
+
+   <com.shy.qunyingzhuan.View1
+       android:id="@+id/view1"
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:background="@color/colorAccent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintHorizontal_bias="0.463"
+       />
+   <com.shy.qunyingzhuan.TextViewlx1
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="123456"
+       android:textSize="24sp"
+       tools:layout_editor_absoluteY="234dp"
+       tools:layout_editor_absoluteX="148dp" />
+   <com.shy.qunyingzhuan.TextViewlx2
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:text="abcedftslkslfkdfj"
+
+       />
+     <com.shy.qunyingzhuan.Topbar
+         android:id="@+id/topbar"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         app:title="标题"
+         app:titleTextColor="@color/colorPrimaryDark"
+         app:leftBackground="@color/colorAccent"
+         app:leftText="left"
+         app:leftTextColor="#781982"
+         app:rightBackground="@color/colorAccent"
+         app:rightText="Right"
+         app:rightTextColor="#781464"
+         ></com.shy.qunyingzhuan.Topbar>
+
+</LinearLayout>

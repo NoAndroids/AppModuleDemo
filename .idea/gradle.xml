@@ -13,11 +13,15 @@
             <option value="$PROJECT_DIR$/baseutillib" />
             <option value="$PROJECT_DIR$/constraintlayoutdemo" />
             <option value="$PROJECT_DIR$/dagger2demo" />
+            <option value="$PROJECT_DIR$/design" />
             <option value="$PROJECT_DIR$/mvpdagger2rxjavaretrofitbutterknifedemo" />
             <option value="$PROJECT_DIR$/myandroidlibs" />
             <option value="$PROJECT_DIR$/observerpattern" />
             <option value="$PROJECT_DIR$/one" />
+            <option value="$PROJECT_DIR$/qunyingzhuan" />
+            <option value="$PROJECT_DIR$/servertest" />
             <option value="$PROJECT_DIR$/two" />
+            <option value="$PROJECT_DIR$/yishutansuo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
