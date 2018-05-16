@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<set></set>
+<!--<set android:ordering="sequentially/together"  *together表示动画集合中的子动画同时播放，sequentially表示动画集合中的子动画按照前后顺序播放-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"> *对应AnimatorSet-->
+<!--<objectAnimator *对应ObjectAnimator-->
+    <!--android:propertyName="String" *表示属性动画的作用对象的属性名称-->
+    <!--android:duration="int"  *表示动画时长-->
+    <!--android:valueFrom="int/float/color" *表示属性的起始值-->
+    <!--android:valueTo="int/float/color"  *表示属性的结束值-->
+    <!--android:startOffset="int"  *表示动画的延迟时间，当动画开始后，需要延迟多少毫秒才会真正播放此动画-->
+    <!--android:repeatCount="int"   *表示动画的重复次数-->
+    <!--android:repeatMode="repeat/reverse" *表示动画的重复模式-->
+    <!--android:valueType="intType/floatType" *表示android:propertyName所指定的属性的类型，如果propertyName所指定的属性表示的是颜色就不需要指定ValueType-->
+    <!--/>-->
+    <!--<animator *对应ValueAnimator-->
+        <!--android:duration="int"-->
+        <!--android:valueFrom="int/float/color"-->
+        <!--android:valueTo="int/float/color"-->
+        <!--android:startOffset="int"-->
+        <!--android:repeatCount="int"-->
+        <!--android:repeatMode="repeat/reverse"-->
+        <!--android:valueType="intType/floatType"-->
+
+<!--</set>-->
