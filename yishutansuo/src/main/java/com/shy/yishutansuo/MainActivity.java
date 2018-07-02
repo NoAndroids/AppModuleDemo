@@ -1,29 +1,17 @@
 package com.shy.yishutansuo;
 
 import android.animation.AnimatorSet;
-import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
-import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.app.Application;
-import android.app.Dialog;
 import android.content.Context;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.view.animation.AnimationSet;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LayoutAnimationController;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private Button btn1;
     private Context contex;
     private Activity a;
@@ -35,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
 //        lv= (ListView) findViewById(R.id.lv);
 //        Animation animation=AnimationUtils.loadAnimation(this, R.anim.anim3);
 //        LayoutAnimationController layoutAnimationController=new LayoutAnimationController(animation);

@@ -12,7 +12,6 @@ import android.graphics.Color;
 import android.opengl.Visibility;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
 
 /**
@@ -68,6 +67,7 @@ public  class Notif {
     private int normolTag=1;
     private  String normoldesc="普通通知";
     private  int normolImportance= NotificationManager.IMPORTANCE_DEFAULT;
+
     private  String specialId="special";
     private int specialTag=2;
     private  String specialdesc="特殊通知";
