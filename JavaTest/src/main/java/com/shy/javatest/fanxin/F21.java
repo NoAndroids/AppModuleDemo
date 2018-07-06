@@ -1,8 +1,4 @@
-package com.shy.javatest;
-
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+package com.shy.javatest.fanxin;
 
 /**
  * //                            _ooOoo_
@@ -35,34 +31,12 @@ import java.util.concurrent.locks.ReentrantLock;
  * //                  奔驰宝马贵者趣，公交自行程序员。
  * //                  别人笑我忒疯癫，我笑自己命太贱；
  * //                  不见满街漂亮妹，哪个归得程序员？
- * Created by ShangHongYu on 2018/6/27.
+ * Created by ShangHongYu on 2018/7/4.
  */
 
-public class AliPay {
-    private double[] accounts;//账户数量
-    private Lock alipayLock;
-    private Condition condition;
-    public AliPay(int n , double  money) {
-        accounts=new double[n];
-        alipayLock=new ReentrantLock();
-        condition=alipayLock.newCondition();
-        for (int i = 0; i < accounts.length; i++) {
-            accounts[i]=money;
-        }
-     
-    }
-    public  void transfer(int from,int to ,int amount) throws InterruptedException {
-        alipayLock.lock();
-        try {
-            while (accounts[from]<amount){
-                //
-                condition.await();//阻塞当前线程，并放弃锁
-            }
-            accounts[from]=accounts[from]-amount;
-            accounts[to]=accounts[to]+amount;
-            condition.signalAll();
-        }finally {
-            alipayLock.unlock();
-        }
+public class F21 extends F2<String> {
+
+    public F21(String s) {
+        super(s);
     }
 }

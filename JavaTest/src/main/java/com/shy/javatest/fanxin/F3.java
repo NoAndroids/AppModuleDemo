@@ -1,8 +1,7 @@
-package com.shy.javatest;
+package com.shy.javatest.fanxin;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * //                            _ooOoo_
@@ -35,34 +34,39 @@ import java.util.concurrent.locks.ReentrantLock;
  * //                  奔驰宝马贵者趣，公交自行程序员。
  * //                  别人笑我忒疯癫，我笑自己命太贱；
  * //                  不见满街漂亮妹，哪个归得程序员？
- * Created by ShangHongYu on 2018/6/27.
+ * Created by ShangHongYu on 2018/7/4.
  */
 
-public class AliPay {
-    private double[] accounts;//账户数量
-    private Lock alipayLock;
-    private Condition condition;
-    public AliPay(int n , double  money) {
-        accounts=new double[n];
-        alipayLock=new ReentrantLock();
-        condition=alipayLock.newCondition();
-        for (int i = 0; i < accounts.length; i++) {
-            accounts[i]=money;
+public class F3 {
+    private void test(List<?> c){
+        for (int i = 0; i < c.size(); i++) {
+            System.out.println(c.get(i)+"===="+c.get(i).getClass());
         }
-     
     }
-    public  void transfer(int from,int to ,int amount) throws InterruptedException {
-        alipayLock.lock();
-        try {
-            while (accounts[from]<amount){
-                //
-                condition.await();//阻塞当前线程，并放弃锁
-            }
-            accounts[from]=accounts[from]-amount;
-            accounts[to]=accounts[to]+amount;
-            condition.signalAll();
-        }finally {
-            alipayLock.unlock();
-        }
+    public static void main(String[] arg){
+        F3 f3=new F3();
+        List<String> strlist=new ArrayList<>();
+        strlist.add("a1");
+        strlist.add("a2");
+        strlist.add("a3");
+        strlist.add("a4");
+        f3.test(strlist);
+        System.out.println("-------------");
+        List<Integer> intlist=new ArrayList<>();
+        intlist.add(1);
+        intlist.add(2);
+        intlist.add(3);
+        intlist.add(4);
+        f3.test(intlist);
+        System.out.println("-------------");
+        List<F1> f1list=new ArrayList<>();
+        f1list.add(new F1(1));
+        f1list.add(new F1("2"));
+        f1list.add(new F1(3));
+        f1list.add(new F1(new F2(2)));
+        f3.test(f1list);
+        ////////////////
+        List<?> c=new ArrayList<>();
+//        c.add("123");
     }
 }
