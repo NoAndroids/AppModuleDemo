@@ -3,6 +3,7 @@ package com.shy.javatest;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.logging.XMLFormatter;
 
 /**
  * //                            _ooOoo_
@@ -39,6 +40,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 
 public class AliPay {
+
     private double[] accounts;//账户数量
     private Lock alipayLock;
     private Condition condition;

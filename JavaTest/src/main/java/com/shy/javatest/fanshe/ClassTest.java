@@ -1,5 +1,10 @@
 package com.shy.javatest.fanshe;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+import jdk.nashorn.internal.objects.annotations.Constructor;
+
 /**
  * //                            _ooOoo_
  * //                           o8888888o
@@ -35,13 +40,24 @@ package com.shy.javatest.fanshe;
  */
 
 public class ClassTest {
-    public static void main(String[] args){
-        Class c=C1.class;
-        try {
-            Class c1=Class.forName("com.shy.javatest.fanshe.C1");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        Class c2=new C1().getClass();
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+//        Class c=C1.class;
+//        try {
+//            Class c1=Class.forName("com.shy.javatest.fanshe.C1");
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
+//        Class c2=new C1().getClass();
+        Class<?> c1clazz = Class.forName("com.shy.javatest.fanshe.C1");
+//        java.lang.reflect.Constructor<?> constructor=c1clazz.getConstructor(String.class);
+//        Object o=constructor.newInstance("00111");
+//        System.out.print( o.getClass().getName());
+        Object o = c1clazz.newInstance();
+        System.out.print(o.getClass().getName());
+        Method  method=c1clazz.getDeclaredMethod("setb",String.class);
+        method.setAccessible(true);
+        method.invoke(o,"abc");
+        System.out.print(o.toString());
+
     }
 }

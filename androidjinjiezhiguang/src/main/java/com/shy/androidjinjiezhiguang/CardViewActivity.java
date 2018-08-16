@@ -8,6 +8,7 @@ import android.widget.SeekBar;
 public class CardViewActivity extends AppCompatActivity {
     private CardView cv;
     private SeekBar sb1,sb2,sb3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

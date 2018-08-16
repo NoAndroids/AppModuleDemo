@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AppModuleDemo.iml" filepath="$PROJECT_DIR$/AppModuleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppModuleDemo1.iml" filepath="$PROJECT_DIR$/AppModuleDemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaTest/JavaTest.iml" filepath="$PROJECT_DIR$/JavaTest/JavaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidjinjiezhiguang/androidjinjiezhiguang.iml" filepath="$PROJECT_DIR$/androidjinjiezhiguang/androidjinjiezhiguang.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/observerpattern/observerpattern.iml" filepath="$PROJECT_DIR$/observerpattern/observerpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/one/one.iml" filepath="$PROJECT_DIR$/one/one.iml" />
       <module fileurl="file://$PROJECT_DIR$/qunyingzhuan/qunyingzhuan.iml" filepath="$PROJECT_DIR$/qunyingzhuan/qunyingzhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofittest/retrofittest.iml" filepath="$PROJECT_DIR$/retrofittest/retrofittest.iml" />
       <module fileurl="file://$PROJECT_DIR$/servertest/servertest.iml" filepath="$PROJECT_DIR$/servertest/servertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/two/two.iml" filepath="$PROJECT_DIR$/two/two.iml" />
       <module fileurl="file://$PROJECT_DIR$/yishutansuo/yishutansuo.iml" filepath="$PROJECT_DIR$/yishutansuo/yishutansuo.iml" />

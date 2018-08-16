@@ -35,7 +35,7 @@ package com.shy.javatest.fanshe;
  */
 
 public class C1 {
-    private String str;
+     String str;
 
     public C1() {
     }
@@ -54,5 +54,13 @@ public class C1 {
     }
     private void seta(){
         str="123";
+    }
+    private void setb(String s){
+        str=s;
+    }
+
+    @Override
+    public String toString() {
+        return str.toString();
     }
 }

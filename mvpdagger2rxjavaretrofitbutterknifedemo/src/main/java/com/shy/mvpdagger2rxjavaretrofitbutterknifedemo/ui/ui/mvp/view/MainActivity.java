@@ -11,7 +11,6 @@ import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.R;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.BaseActivity;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.Bean.News;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.NewslvAdapter;
-import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.dagger.DaggerMainActivityComponent;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.dagger.MainActivityModule;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.mvp.view.presenter.MainPresenter;
 import com.shy.mvpdagger2rxjavaretrofitbutterknifedemo.ui.ui.myApp.MyAppComponent;
@@ -21,7 +20,6 @@ import java.util.List;
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity implements MainView {
 
